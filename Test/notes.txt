@@ -1,0 +1,4 @@
+commands:
+tsc script.ts
+tsc --init
+tsc -w
