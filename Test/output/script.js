@@ -18,3 +18,13 @@ const arrNum = [];
 const strOrNum = [];
 let anyType = "";
 anyType = 40;
+let func;
+func = (a, b, c, d, e = "This is string default value") => {
+    console.log("My Name");
+    return a;
+};
+let variable;
+variable = "";
+// function signatures:
+let myFunc; // if i don't want to return anything.
+let myFunc2;

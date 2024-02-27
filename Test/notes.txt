@@ -2,3 +2,8 @@ commands:
 tsc script.ts
 tsc --init
 tsc -w
+
+__void:
+in function javascript return hisself undefined if we didn't return anything,
+but typescript return "void"
+undefined hisself it's value, but nothing defined, but void means nothing defined.

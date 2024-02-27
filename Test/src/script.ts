@@ -28,3 +28,20 @@ const strOrNum:(number | string)[] = [];
 
 let anyType:any = "";
 anyType = 40;
+
+
+let func:Function;
+func = (a:number, b:string, c?:boolean, d:{}, e:string = "This is string default value")=>{
+    console.log("My Name");
+    return a;
+};
+
+
+// Type aliases:
+type strs = string;
+let variable:strs;
+variable = "";
+
+// function signatures:
+let myFunc:(a:number, b:string, c:boolean) => void; // if i don't want to return anything.
+let myFunc2:(a:number, b:string, c:boolean) => string;
