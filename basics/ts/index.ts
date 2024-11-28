@@ -7,3 +7,8 @@ function anyFunc(a: number, b: number): number {
 }
 
 anyFunc(3, 4);
+
+type User = {
+  name: string;
+  age: number;
+};
