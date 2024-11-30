@@ -31,7 +31,3 @@ let obj: { name: string; age: number } = {
   name: "Rashed",
   age: 25,
 };
-
-enum Users {
-  Name = 1,
-}
