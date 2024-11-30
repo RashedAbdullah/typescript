@@ -31,3 +31,14 @@ let obj: { name: string; age: number } = {
   name: "Rashed",
   age: 25,
 };
+
+const makeSure: unknown = "Rashed";
+
+if (typeof makeSure === "number") {
+  makeSure.toFixed;
+}
+
+// Void: don't return anything, but function will run perfectly.
+function TypeVoid(msg: string): void {
+  console.log(msg);
+}
